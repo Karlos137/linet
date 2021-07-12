@@ -1,6 +1,8 @@
-LINET - ukázková microsite.
+# LINET
 
-## První spuštění
+Ukázková microsite.
+
+## Před prvním spuštění
 
 ```bash
 npm install
@@ -17,3 +19,8 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Použité balíčky
+
+- styled-components - stylování
+- @artsy/fresnel - responzivní komponenty (SSR)
