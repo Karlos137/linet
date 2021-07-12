@@ -1,6 +1,12 @@
 import React from "react"
 import Head from "next/head"
 
+//React components imports
+import Header from "../Header"
+
+//Styled components imports
+import Main from "./Main"
+
 const Layout = ({ children }) => {
   return (
     <>
@@ -8,7 +14,8 @@ const Layout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
         <title>LINET</title>
       </Head>
-      <div>{children}</div>
+      <Header />
+      <Main>{children}</Main>
     </>
   )
 }

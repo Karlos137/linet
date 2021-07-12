@@ -6,13 +6,18 @@ import { theme } from "../utils/styled-components/theme"
 //@artsy/fresnel import
 import { MediaContextProvider } from "../utils/media"
 
+//Contexts imports
+import { MenuContextProvider } from "../contexts/MenuContext"
+
 function MyApp({ Component, pageProps }) {
   return (
     <MediaContextProvider>
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <Component {...pageProps} />
-      </ThemeProvider>
+      <MenuContextProvider>
+        <ThemeProvider theme={theme}>
+          <GlobalStyle />
+          <Component {...pageProps} />
+        </ThemeProvider>
+      </MenuContextProvider>
     </MediaContextProvider>
   )
 }
