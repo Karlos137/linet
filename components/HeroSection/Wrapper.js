@@ -8,7 +8,11 @@ const Wrapper = styled.section`
   grid-template-columns: 1fr;
   gap: 34px;
 
-  @media (${props => props.theme.mediaQueries.md}) {
+  @media (min-width: 850px) {
+    grid-template-columns: auto 508px;
+  }
+
+  @media (min-width: 1150px) {
     grid-template-columns: 1fr 1fr;
   }
 `

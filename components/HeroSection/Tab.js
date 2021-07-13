@@ -16,7 +16,7 @@ const model = css`
 `
 
 const Tab = styled.div`
-  padding: 14px 20px;
+  padding: 14px 20px 0;
   cursor: pointer;
   font-size: 14px;
   font-weight: 700;

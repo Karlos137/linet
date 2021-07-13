@@ -6,6 +6,7 @@ const TextContainer = styled.div`
   justify-content: flex-end;
   margin-top: 48px;
   align-items: center;
+  padding-bottom: 26px;
 
   @media (${props => props.theme.mediaQueries.lg}) {
     align-items: flex-start;

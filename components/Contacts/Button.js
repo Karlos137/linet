@@ -12,6 +12,10 @@ const Button = styled.button`
   position: relative;
   z-index: 3;
   cursor: pointer;
+
+  &:hover {
+    background-color: #c61017;
+  }
 `
 
 export default Button

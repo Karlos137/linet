@@ -11,6 +11,10 @@ const Contact = styled.a`
   min-width: ${props => (props.phone ? "78px" : "70px")};
   border-right: ${props => props.phone && "1px solid #BF2119"};
   background-color: ${props => props.theme.colors.main};
+
+  &:hover {
+    background-color: #c61017;
+  }
 `
 
 export default Contact
