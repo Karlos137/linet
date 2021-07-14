@@ -16,13 +16,22 @@ const Footer = () => {
         <Nav>
           <NavList>
             <NavItem>
-              <Link>Print</Link>
+              <Link
+                href="javascript:if(window.print)window.print()"
+                title="Print"
+              >
+                Print
+              </Link>
             </NavItem>
             <NavItem>
-              <Link>Data Protection (GDPR)</Link>
+              <Link href="#" title="GDPR">
+                Data Protection (GDPR)
+              </Link>
             </NavItem>
             <NavItem>
-              <Link last>LINET Americas</Link>
+              <Link href="#" title="LINET Americas" last>
+                LINET Americas
+              </Link>
             </NavItem>
           </NavList>
         </Nav>

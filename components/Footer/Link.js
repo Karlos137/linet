@@ -9,6 +9,10 @@ const Link = styled.a`
   border-right: ${props =>
     props.last ? "none" : "1px solid rgba(255, 255, 255, 0.5)"};
 
+  &:hover {
+    color: #fff;
+  }
+
   @media (${props => props.theme.mediaQueries.md}) {
     padding: 6px 27px;
     font-size: 14px;
