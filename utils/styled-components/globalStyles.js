@@ -40,9 +40,14 @@ a {
   color: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: ${props => props.theme.colors.text};
+  scroll-behavior: smooth;
 }
 
 `

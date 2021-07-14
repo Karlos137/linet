@@ -54,7 +54,7 @@ const MobileNav = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/">
+            <NavLink href="#discover">
               <Link
                 onClick={() => {
                   setMenuOpen(false)

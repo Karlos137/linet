@@ -10,7 +10,7 @@ import Heading from "./Heading"
 
 const CardsSection = () => {
   return (
-    <Wrapper>
+    <Wrapper id="discover">
       <Container>
         <Heading>Caregivers and Moms Deserve the AVE 2 Birthing Bed</Heading>
         <Cards />

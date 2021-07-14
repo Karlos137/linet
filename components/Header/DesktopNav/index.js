@@ -22,7 +22,7 @@ const DesktopNav = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/">
+            <NavLink href="#discover">
               <Link title="DISCOVER AVE 2">DISCOVER AVE 2</Link>
             </NavLink>
           </NavItem>

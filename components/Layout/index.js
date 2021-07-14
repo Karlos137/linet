@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <title>LINET</title>
+        <meta name="description" content="LINET - ukázková microsite."></meta>
       </Head>
       <Header />
       <Main>{children}</Main>
