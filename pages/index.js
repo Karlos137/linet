@@ -5,6 +5,7 @@ import { Media } from "../utils/media"
 import Layout from "../components/Layout"
 import HeroSection from "../components/HeroSection"
 import CardsSection from "../components/CardsSection"
+import ContentSection from "../components/ContentSection"
 import Contacts from "../components/Contacts"
 
 const HomePage = () => {
@@ -12,6 +13,7 @@ const HomePage = () => {
     <Layout>
       <HeroSection />
       <CardsSection />
+      <ContentSection />
 
       <Media greaterThanOrEqual="lg">
         <Contacts />

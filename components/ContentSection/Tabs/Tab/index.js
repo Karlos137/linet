@@ -9,17 +9,10 @@ import DesignIcon from "../../../Icons/DesignIcon"
 
 //Styled components imports
 import Wrapper from "./Wrapper"
-//Card head
-import CardHead from "./CardHead"
-import Heading from "./Heading"
 import IconWrapper from "./IconWrapper"
-//Card body
-import CardBody from "./CardBody"
-import Texts from "./Texts"
 import Text from "./Text"
-import MoreInfoText from "./MoreInfoText"
 
-const Card = ({ heading, icon, texts }) => {
+const Tab = ({ text, icon, active }) => {
   const getIcon = icon => {
     switch (icon) {
       case "mom":
@@ -34,23 +27,14 @@ const Card = ({ heading, icon, texts }) => {
         return <MomIcon />
     }
   }
-
   return (
-    <Wrapper href="/#">
-      <CardHead className="card-head">
-        <Heading>{heading}</Heading>
-        <IconWrapper className="icon-wrapper">{getIcon(icon)}</IconWrapper>
-      </CardHead>
-      <CardBody>
-        <Texts>
-          {texts.map((text, i) => {
-            return <Text key={i}>{text}</Text>
-          })}
-        </Texts>
-        <MoreInfoText>MORE INFORMATION</MoreInfoText>
-      </CardBody>
+    <Wrapper>
+      <IconWrapper>{getIcon(icon)}</IconWrapper>
+      <Text className="tab-text" active={active}>
+        {text}
+      </Text>
     </Wrapper>
   )
 }
 
-export default Card
+export default Tab
