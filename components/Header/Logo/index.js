@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Logo = () => {
   return (
-    <Link href="/">
+    <Link href="/" title="Logo">
       <a>
         <svg
           xmlns="http://www.w3.org/2000/svg"
