@@ -25,7 +25,7 @@ const HeroSection = () => {
         </Text>
         <ButtonsContainer>
           <Button
-            href="mailto:linet@example.com?subject=LINET%20example"
+            href="mailto:info@linetamericas.com?subject=LINET%20example"
             title="CONTACT ME"
           >
             CONTACT ME
@@ -45,7 +45,13 @@ const HeroSection = () => {
         </div>
       </TextContainer>
       <ImageContainer>
-        <Image src="/hero.png" alt="Birthing bed" width="800" height="720" />
+        <Image
+          src="/hero.png"
+          alt="Birthing bed"
+          width="800"
+          height="720"
+          priority
+        />
         <Tabs>
           <Tab active>PHOTO</Tab>
           <Tab model>INTERACTIVE 3D MODEL</Tab>

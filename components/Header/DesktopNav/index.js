@@ -33,7 +33,7 @@ const DesktopNav = () => {
           </NavItem>
           <NavItem>
             <Link
-              href="mailto:linet@example.com?subject=LINET%20example"
+              href="mailto:info@linetamericas.com?subject=LINET%20example"
               title="CONTACT ME"
               contact
             >

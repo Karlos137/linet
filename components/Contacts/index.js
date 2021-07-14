@@ -27,8 +27,8 @@ const Contacts = () => {
         </Text>
       </Contact>
       <Contact
-        href="mailto:linet@example.com?subject=LINET%20example"
-        title="linet@example.com"
+        href="mailto:info@linetamericas.com?subject=LINET%20example"
+        title="info@linetamericas.com"
         visible={contactsVisible}
         mail
       >

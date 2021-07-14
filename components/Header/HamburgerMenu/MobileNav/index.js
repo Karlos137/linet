@@ -80,7 +80,7 @@ const MobileNav = () => {
           <NavItem contact>
             <Link
               title="CONTACT ME"
-              href="mailto:linet@example.com?subject=LINET%20example"
+              href="mailto:info@linetamericas.com?subject=LINET%20example"
             >
               CONTACT ME
             </Link>
