@@ -1,14 +1,14 @@
 # LINET
 
-Ukázková microsite.
+Sample microsite.
 
-## Před prvním spuštění
+## Before run
 
 ```bash
 npm install
 ```
 
-## Spuštění (dev server)
+## How to run (dev server)
 
 ```bash
 npm run dev
@@ -20,8 +20,8 @@ npm run dev
 npm run build
 ```
 
-## Použité balíčky
+## Packages used
 
-- styled-components - stylování
-- @artsy/fresnel - responzivní komponenty (SSR)
-- react-hook-form - zpracování formuláře
+- styled-components - styling
+- @artsy/fresnel - responsive components (SSR)
+- react-hook-form - form handling
